@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 208, 0);
+  color: black;
+  transition: all ease-in-out 200ms;
+  font-weight: bolder;
+  font-size: 0.8em;
+  letter-spacing: -1px;
+  margin: 0 0.5rem 2rem;
+}
+
+.btnMenu span {
+  margin: 0 5px;
+  color: red;
+  font-weight: bolder;
+  font-size: 1.3em;
+  transform: rotate(7deg);
+}
+
+.btnMenu:hover {
+  transform: scale(1.02);
+}
+
+.selected {
+  transform: scale(0.92);
+  background-color: rgb(255, 208, 0);
+}

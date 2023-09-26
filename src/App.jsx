@@ -1,13 +1,13 @@
 import './App.css';
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
-import { TaTeTi } from './components/TaTeTi/TaTeTi';
+import { Menu } from './components/Menu/Menu';
 
 function App() {
   return (
     <>
       <Header />
-      <TaTeTi />
+      <Menu />
       <Footer />
     </>
   );

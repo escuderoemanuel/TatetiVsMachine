@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Board } from './Board/Board';
-import './TaTeTi.css';
-import { ScoreBoard } from './ScoreBoard/ScoreBoard';
+import { Board } from '../Board/Board';
+import '../Menu.css';
+import { ScoreBoard } from '../ScoreBoard/ScoreBoard';
 import confetti from 'canvas-confetti';
 
 const WINNER_COMBOS = [
@@ -29,7 +29,7 @@ const getRandomEmptySquare = (squares) => {
   return emptySquares[randomIndex];
 };
 
-export const TaTeTi = () => {
+export const PlayerMachine = () => {
   /* Estado del Turno */
   const [turn, setTurn] = useState('X');
 
@@ -165,7 +165,7 @@ export const TaTeTi = () => {
 
   /* Renderizado */
   return (
-    <div className='TaTeTi'>
+    <div className='game'>
       <Board
         winningSquares={winningSquares}
         turn={turn}
