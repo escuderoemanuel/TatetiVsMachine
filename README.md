@@ -1,12 +1,12 @@
 # TaTeTi vs Machine
 
-![Project Poster](https://i.ibb.co/Xxs0Wq8/Project-Poster.jpg)
+![Project Poster](https://i.ibb.co/TkCQBc1/Project-Poster.jpg)
 
 ## Emanuel Escudero
 
 ##### FrontEnd Developer
 
-_Game online called 'TaTeTi' vs Machine._
+_Game online called 'TaTeTi' Multiplayer or Player vs Machine._
 
 ### Created With
 
