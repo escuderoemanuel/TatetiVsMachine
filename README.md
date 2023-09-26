@@ -15,8 +15,8 @@ _Game online called 'TaTeTi' vs Machine._
 
 ### About the project
 
-- URL: ()
-- Github Repository: ()
+- URL: (https://tateti-vs-machine.netlify.app/)
+- Github Repository: (https://github.com/escuderoemanuel/TatetiVsMachine)
 - Author: Emanuel Escudero
 
 ### Requirements
