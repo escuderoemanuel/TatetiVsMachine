@@ -1,5 +1,5 @@
 import './Footer.css';
-import logoDev from '../../assets/img/logoDev.png';
+import logoDev from '../../assets/img/Logo2024.png';
 
 export const Footer = () => {
   return (
@@ -9,7 +9,8 @@ export const Footer = () => {
         <a
           href='https://emanuelescudero.ar'
           rel='noopener noreferrer'
-          target='_blank'>
+          target='_blank'
+          className='logoContainer'>
           <img className='logoDev' src={logoDev} alt='Developer Logo' />
         </a>
       </div>
